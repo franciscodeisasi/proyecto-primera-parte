@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>tec.Seg.Higiene.Francisco-De-isasi</title>
-    <link rel="preload" href="css/style.css" as="style">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="preload" href="css/style.css" as="style" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
@@ -18,11 +18,12 @@
       <a href="#">clientes</a>
       <a href="#">contacto</a>
     </nav>
-
-    <img
-      src="imagenes_primera_entrega/persona-que-trabaja-edificacion-construccion1800x1200.jpg"
-    />
-
+    <div>
+      <img
+        class="img"
+        src="imagenes_primera_entrega/persona-que-trabaja-edificacion-construccion1800x1200.jpg"
+      />
+    </div>
     <section class="tecnico">
       <h2>tecnico en higiene y seguridad</h2>
     </section>
@@ -54,7 +55,7 @@
 
     <a href="#">Contacto</a>
 
-    <main>
+    <main class="menu">
       <h2>Mis Servicios</h2>
 
       <section>
@@ -158,38 +159,49 @@
       <h2>contacto</h2>
     </section>
 
-    <form class="formulario">
+    <form class="formulario"> <!-- comienzo formulario -->
+      
       <fieldset>
         <legend>contactame llenando todos los campos</legend>
-
+        
         <div>
-          <label>Nombre</label>
-          <input type="text" placeholder="Nombres" />
+          <div class="nombre">
+            <label>Nombre</label>
+            <input type="text" placeholder="Nombres" />
+          </div>
         </div>
 
         <div>
-          <label>Apellido</label>
-          <input type="text" placeholder="Apellidos" />
+          <div class="apellido">
+            <label>Apellido</label>
+            <input type="text" placeholder="Apellidos" />
+          </div>
         </div>
 
         <div>
-          <label> Telefono</label>
-          <input type="text" placeholder="Tu Numero" />
+          <div class="telefono">
+            <label> Telefono</label>
+            <input type="text" placeholder="Tu Numero" />
+          </div>
         </div>
 
         <div>
-          <label>Mail</label>
-          <input type="email" placeholder="Mail" />
+          <div class="mail">
+            <label>Mail</label>
+            <input type="email" placeholder="Mail" />
+          </div>
         </div>
 
         <div>
-          <label>Mensaje:</label>
-          <textarea name="" id="" cols="40" rows="5"></textarea>
-        </div>
-        <div>
-          <input type="submit" value="Enviar" />
+          <div class="mensaje">
+            <label>Mensaje:</label>
+            <textarea name="" id="" cols="40" rows="5"></textarea>
+          </div>
         </div>
 
+        <div>
+          <input class="button" type="submit" value="Enviar" />
+        </div>
       </fieldset>
     </form>
 

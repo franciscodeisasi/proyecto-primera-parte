@@ -159,51 +159,46 @@
       <h2>contacto</h2>
     </section>
 
-    <form class="formulario"> <!-- comienzo formulario -->
+     <!-- comienzo formulario -->
       
-      <fieldset class="formulario">
+    <fieldset>
         <legend>contactame llenando todos los campos</legend>
         
-        <div class="input-group">
-          <div class="input">
-            <label>Nombre</label>
-            <input type="text" placeholder="Nombres" />
+        <section class="form-2">
+          <form>
+              <div class="input-group">
+              <input class="input" required autocomplete="off" type="text" name="Nombre" id="Nombre">
+              <label class="label" for="username">Nombre</label>
           </div>
-        </div>
-
-        <div class="input-group">
-          <div class="input">
-            <label>Apellido</label>
-            <input type="text" placeholder="Apellidos" />
+      
+          <div class="input-group">
+              <input class="input" required autocomplete="off" type="text" name="Apellidos" id="Apellidos">
+              <label class="label" for="username">Apellidos</label>
+            </div>
+      
+            <div class="input-group">
+              <input class="input" required autocomplete="off" type="tel" name="Telefono" id="Telefono">
+              <label class="label" for="username">Telefono</label>
+            </div>
+      
+            <div class="input-group">
+              <input class="input" required autocomplete="off" type="email" name="Mail" id="Mail">
+              <label class="label" for="username">Email</label>
+            </div>
+      
+            <div class="mensaje">
+              <label class="mensaje">Mensaje:</label>
+              <textarea name="" id="" cols="40" rows="5"></textarea>
           </div>
-        </div>
-
-        <div class="input-group">
-          <div class="input">
-            <label> Telefono</label>
-            <input type="text" placeholder="Tu Numero" />
-          </div>
-        </div>
-
-        <div class="input-group">
-          <div class="input">
-            <label>Mail</label>
-            <input type="email" placeholder="Mail" />
-          </div>
-        </div>
-
-        <div class="input-group">
-          <div class="input">
-            <label>Mensaje:</label>
-            <textarea name="" id="" cols="40" rows="5"></textarea>
-          </div>
-        </div>
-
-        <div>
-          <input class="button" type="submit" value="Enviar" />
-        </div>
-      </fieldset>
-    </form>
+      
+            <div>
+              <input class="button" type="submit" value="Enviar" />
+            </div>
+          </form>
+      
+      </section>
+        
+    </fieldset>
 
     <footer>
       <p>todos los derechos recervados</p>

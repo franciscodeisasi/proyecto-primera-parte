@@ -7,45 +7,20 @@
   padding: 0;
   box-sizing: border-box;
 }
-html {
-  font-size: 62.5%;
-}
 
-body {
-  font-size: 16px; /* 1rem = 10px */
-}
-
-h1 {
-  text-align: center;
-}
-
-nav a {
-    text-decoration: none
-    ;
-}
-
-h2 {
-  text-align: center;
-}
-
-.menu {
-display: grid;
-} /* contiene los servicios que se brinda*/
-.formulario {
+form {
     display: grid;
 }
-legend{
-    text-align: center;
-}
-.img {
-   height: 50%;
-   width: 50%;
-   margin-left: 25%;
-} 
 
-/* efecto agregado el 14/12/2023 */
+html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 16px; /* 1rem = 10px */
+  }
 
-.section-form {
+section {
   font-family: Inter, sans-serif;
   height: 100vh;
   background-color: #1a1a1a;
@@ -88,14 +63,7 @@ legend{
   padding-inline: 0.3rem;
   color: var(--primary);
 }
-.mensaje {
-  color: red;
-}
-.form-2 {
-  font-family: Inter, sans-serif;
-  height: 100vh;
-  background-color: #1a1a1a;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
+
+
+
